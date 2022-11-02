@@ -1,11 +1,25 @@
-let num=13;
-let count=0;
-for(let x=0; x<=num; x++){
-if(num%2==0){
-count++;
+	function primeno(num)
+	{
+    let count=0;
+for(let i=1;i<=num;i++)
+  {
+    if(num%i==0)
+    {
+      count++;
+    }
+  }
+if(count==2)
+{
+ return true;
 }
+return false;
 }
-if(count==2){
-console.log("prime");
-}else{
-console.log("not a prime");
+let bag=primeno(13)
+if(bag==true)
+{
+	console.log("prime no");
+}
+else
+{
+ console.log("not a prime no")
+} 
