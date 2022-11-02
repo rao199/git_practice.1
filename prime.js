@@ -1,3 +1,4 @@
+
 	function primeno(num)
 	{
     let count=0;
@@ -11,9 +12,11 @@ for(let i=1;i<=num;i++)
 if(count==2)
 {
  return true;
+
 }
 return false;
 }
+
 let bag=primeno(13)
 if(bag==true)
 {
@@ -23,3 +26,4 @@ else
 {
  console.log("not a prime no")
 } 
+
